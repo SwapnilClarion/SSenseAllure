@@ -6,7 +6,7 @@
   "scripts": {
     "test": "node_modules/.bin/wdio wdio.conf.js",
     "allure:clean": "/node_modules/rimraf/rimraf videos/",
-    "allure:report": "node_modules/.bin/allure generate --clean ./reports/allure-results -o ./reports/allure-report && allure open ./reports/allure-report"
+    "allure:report": "node_modules/.bin/allure generate --clean ./reports/allure-results -o ./reports/allure-report"
   },
   "keywords": ["allure","video-reporter"],
   "author": "Swapnil Naidu",
