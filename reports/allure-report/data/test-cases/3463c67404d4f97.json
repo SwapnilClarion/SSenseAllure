@@ -1,0 +1,130 @@
+{
+  "uid" : "3463c67404d4f97",
+  "name" : "Test-1-1:Failed Test ",
+  "fullName" : "Check Allure report.Test-1-1:Failed Test ",
+  "historyId" : "821a73b13f94879246f8d5ad06e94a55",
+  "time" : {
+    "start" : 1586442943032,
+    "stop" : 1586442958573,
+    "duration" : 15541
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected true to be false",
+  "statusTrace" : "AssertionError: expected true to be false\n                    at Context.<anonymous> (D:\\WebDriverIO\\Practice\\allureSsense\\test\\specs\\demoTest\\allureTest_1.js:24:25)\n                    at Context.executeSync (D:\\WebDriverIO\\Practice\\allureSsense\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at D:\\WebDriverIO\\Practice\\allureSsense\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected true to be false",
+    "statusTrace" : "AssertionError: expected true to be false\n                    at Context.<anonymous> (D:\\WebDriverIO\\Practice\\allureSsense\\test\\specs\\demoTest\\allureTest_1.js:24:25)\n                    at Context.executeSync (D:\\WebDriverIO\\Practice\\allureSsense\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at D:\\WebDriverIO\\Practice\\allureSsense\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cbc222e1e6edb67c",
+      "name" : "Screenshot",
+      "source" : "cbc222e1e6edb67c.png",
+      "type" : "image/png",
+      "size" : 571548
+    }, {
+      "uid" : "f0c225f47ed03c3b",
+      "name" : "Screenshot",
+      "source" : "f0c225f47ed03c3b.png",
+      "type" : "image/png",
+      "size" : 307972
+    }, {
+      "uid" : "d2b5c1554800fdb0",
+      "name" : "Screenshot",
+      "source" : "d2b5c1554800fdb0.png",
+      "type" : "image/png",
+      "size" : 195695
+    }, {
+      "uid" : "b52a7b524a710ffa",
+      "name" : "Screenshot",
+      "source" : "b52a7b524a710ffa.png",
+      "type" : "image/png",
+      "size" : 194664
+    }, {
+      "uid" : "14a4a4c563b5ac05",
+      "name" : "Screenshot",
+      "source" : "14a4a4c563b5ac05.png",
+      "type" : "image/png",
+      "size" : 194664
+    }, {
+      "uid" : "37cf63442235b21d",
+      "name" : "Execution video",
+      "source" : "37cf63442235b21d.mp4",
+      "type" : "video/mp4",
+      "size" : 43504
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Check Allure report"
+  }, {
+    "name" : "testClass",
+    "value" : "Check Allure report"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test-1-1:Failed Test "
+  }, {
+    "name" : "package",
+    "value" : "Check Allure report"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-80.0.3987.149"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fca9b143cffae0e0",
+      "status" : "failed",
+      "statusDetails" : "expected true to be false",
+      "time" : {
+        "start" : 1586432376290,
+        "stop" : 1586432384607,
+        "duration" : 8317
+      }
+    }, {
+      "uid" : "8a8015dddbee96d4",
+      "status" : "failed",
+      "statusDetails" : "expected true to be false",
+      "time" : {
+        "start" : 1586432070001,
+        "stop" : 1586432083674,
+        "duration" : 13673
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3463c67404d4f97.json",
+  "parameterValues" : [ "chrome-80.0.3987.149" ]
+}

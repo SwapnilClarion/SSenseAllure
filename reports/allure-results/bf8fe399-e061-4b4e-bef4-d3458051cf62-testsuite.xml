@@ -1,0 +1,61 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1586432376280' stop='1586432384682'>
+    <name>Check Allure report</name>
+    <title>Check Allure report</title>
+    <test-cases>
+        <test-case start='1586432376290' status='failed' stop='1586432384607'>
+            <name>Test-1-1:Failed Test </name>
+            <title>Test-1-1:Failed Test </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-80.0.3987.149'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f22eda38-ba8c-4891-b696-5da155a9147b-attachment.png' type='image/png' size='307796'/>
+                <attachment title='Screenshot' source='39b53326-e8e9-4d51-befe-dd03aff337a5-attachment.png' type='image/png' size='53720'/>
+                <attachment title='Screenshot' source='4916c33c-7b47-48e6-abef-fdbda937f471-attachment.png' type='image/png' size='195695'/>
+                <attachment title='Screenshot' source='44e35803-35df-4b22-b79a-9bb1ab98dd6c-attachment.png' type='image/png' size='194582'/>
+                <attachment title='Screenshot' source='72262d85-a889-4576-8611-d00c56628d6e-attachment.png' type='image/png' size='197513'/>
+                <attachment title='Execution video' source='c5b4f129-5422-4346-89ea-db2f04834bb4-attachment.mp4' type='video/mp4' size='123'/>
+            </attachments>
+            <failure>
+                <message>expected true to be false</message>
+                <stack-trace>AssertionError: expected true to be false
+                    at Context.&lt;anonymous> (D:\WebDriverIO\Practice\allureSsense\test\specs\demoTest\allureTest_1.js:24:25)
+                    at Context.executeSync (D:\WebDriverIO\Practice\allureSsense\node_modules\@wdio\sync\build\index.js:56:18)
+                    at D:\WebDriverIO\Practice\allureSsense\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1586432384658' status='passed' stop='1586432384662'>
+            <name>Test-1-2: Passed Test </name>
+            <title>Test-1-2: Passed Test </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-80.0.3987.149'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1586432384680' status='pending' stop='1586432384680'>
+            <name>Test-1-3: Skipped Test </name>
+            <title>Test-1-3: Skipped Test </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,145 @@
+{
+  "uid" : "12ed3fdcb31228a1",
+  "name" : "Test-2-1:Failed Test ",
+  "fullName" : "Check Allure report.Test-2-1:Failed Test ",
+  "historyId" : "dd9f93ada0fb351120356a6d4c7dd911",
+  "time" : {
+    "start" : 1586442946935,
+    "stop" : 1586442958571,
+    "duration" : 11636
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected true to be false",
+  "statusTrace" : "AssertionError: expected true to be false\n                    at Context.<anonymous> (D:\\WebDriverIO\\Practice\\allureSsense\\test\\specs\\demoTest\\allureTest_2.js:9:25)\n                    at Context.executeSync (D:\\WebDriverIO\\Practice\\allureSsense\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at D:\\WebDriverIO\\Practice\\allureSsense\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected true to be false",
+    "statusTrace" : "AssertionError: expected true to be false\n                    at Context.<anonymous> (D:\\WebDriverIO\\Practice\\allureSsense\\test\\specs\\demoTest\\allureTest_2.js:9:25)\n                    at Context.executeSync (D:\\WebDriverIO\\Practice\\allureSsense\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at D:\\WebDriverIO\\Practice\\allureSsense\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b6dd53dd578fb666",
+      "name" : "Screenshot",
+      "source" : "b6dd53dd578fb666.png",
+      "type" : "image/png",
+      "size" : 462192
+    }, {
+      "uid" : "bf952e96cc36d5b",
+      "name" : "Screenshot",
+      "source" : "bf952e96cc36d5b.png",
+      "type" : "image/png",
+      "size" : 337809
+    }, {
+      "uid" : "34e75a0b2bf8cb0a",
+      "name" : "Screenshot",
+      "source" : "34e75a0b2bf8cb0a.png",
+      "type" : "image/png",
+      "size" : 300981
+    }, {
+      "uid" : "358be416c9ac4d6",
+      "name" : "Execution video",
+      "source" : "358be416c9ac4d6.mp4",
+      "type" : "video/mp4",
+      "size" : 44460
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Check Allure report"
+  }, {
+    "name" : "testClass",
+    "value" : "Check Allure report"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test-2-1:Failed Test "
+  }, {
+    "name" : "package",
+    "value" : "Check Allure report"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-80.0.3987.149"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7bca1efa5849d3b4",
+      "status" : "failed",
+      "statusDetails" : "expected true to be false",
+      "time" : {
+        "start" : 1586432358217,
+        "stop" : 1586432368902,
+        "duration" : 10685
+      }
+    }, {
+      "uid" : "40b12e7a2a06cea4",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"#gwd-browseMultiCategoryCard-merchandised-search-5 > div > div:nth-child(1) > a > img\" because element wasn't found",
+      "time" : {
+        "start" : 1586432067343,
+        "stop" : 1586432091496,
+        "duration" : 24153
+      }
+    }, {
+      "uid" : "e48accee6883834",
+      "status" : "failed",
+      "statusDetails" : "expected true to be false",
+      "time" : {
+        "start" : 1586429968846,
+        "stop" : 1586429979845,
+        "duration" : 10999
+      }
+    }, {
+      "uid" : "b2efa1ae7a0acb52",
+      "status" : "failed",
+      "statusDetails" : "expected true to be false",
+      "time" : {
+        "start" : 1586427187187,
+        "stop" : 1586427196013,
+        "duration" : 8826
+      }
+    }, {
+      "uid" : "a700766c6e46f229",
+      "status" : "failed",
+      "statusDetails" : "expected true to be false",
+      "time" : {
+        "start" : 1586427101127,
+        "stop" : 1586427111672,
+        "duration" : 10545
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "12ed3fdcb31228a1.json",
+  "parameterValues" : [ "chrome-80.0.3987.149" ]
+}

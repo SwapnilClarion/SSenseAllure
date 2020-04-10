@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"skipped","Thu Apr 09 20:05:58 IST 2020","Thu Apr 09 20:05:58 IST 2020","0","","Check Allure report","","Check Allure report","Test-1-3: Skipped Test ","Test-1-3: Skipped Test ",""
+"skipped","Thu Apr 09 20:05:58 IST 2020","Thu Apr 09 20:05:58 IST 2020","0","","Check Allure report","","Check Allure report","Test-2-3: Skipped Test ","Test-2-3: Skipped Test ",""
+"passed","Thu Apr 09 20:05:58 IST 2020","Thu Apr 09 20:05:58 IST 2020","2","","Check Allure report","","Check Allure report","Test-1-2: Passed Test ","Test-1-2: Passed Test ",""
+"failed","Thu Apr 09 20:05:43 IST 2020","Thu Apr 09 20:05:58 IST 2020","15541","","Check Allure report","","Check Allure report","Test-1-1:Failed Test ","Test-1-1:Failed Test ",""
+"failed","Thu Apr 09 20:05:46 IST 2020","Thu Apr 09 20:05:58 IST 2020","11636","","Check Allure report","","Check Allure report","Test-2-1:Failed Test ","Test-2-1:Failed Test ",""
+"passed","Thu Apr 09 20:05:58 IST 2020","Thu Apr 09 20:05:58 IST 2020","2","","Check Allure report","","Check Allure report","Test-2-2: Passed Test ","Test-2-2: Passed Test ",""

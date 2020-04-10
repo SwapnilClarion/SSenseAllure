@@ -1,0 +1,56 @@
+{
+  "uid" : "9a135807230cce5d",
+  "name" : "Test-1-2: Passed Test ",
+  "fullName" : "Check Allure report.Test-1-2: Passed Test ",
+  "historyId" : "2d5d5602c4b97b2fe3d4294282e37c57",
+  "time" : {
+    "start" : 1586432384658,
+    "stop" : 1586432384662,
+    "duration" : 4
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Check Allure report"
+  }, {
+    "name" : "testClass",
+    "value" : "Check Allure report"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test-1-2: Passed Test "
+  }, {
+    "name" : "package",
+    "value" : "Check Allure report"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-80.0.3987.149"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9a135807230cce5d.json",
+  "parameterValues" : [ "chrome-80.0.3987.149" ]
+}

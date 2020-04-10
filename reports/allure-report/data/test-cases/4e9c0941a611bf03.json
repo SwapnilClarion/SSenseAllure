@@ -1,0 +1,98 @@
+{
+  "uid" : "4e9c0941a611bf03",
+  "name" : "Test-2-2: Passed Test ",
+  "fullName" : "Check Allure report.Test-2-2: Passed Test ",
+  "historyId" : "da10adb2171fcfe1cd54f76c2c23eb20",
+  "time" : {
+    "start" : 1586442958600,
+    "stop" : 1586442958602,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Check Allure report"
+  }, {
+    "name" : "testClass",
+    "value" : "Check Allure report"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test-2-2: Passed Test "
+  }, {
+    "name" : "package",
+    "value" : "Check Allure report"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-80.0.3987.149"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a58ffcb5007b7213",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586432368946,
+        "stop" : 1586432368948,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "14457705000b37c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586432091522,
+        "stop" : 1586432091525,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "2d624cd02e5e7c6d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586429979881,
+        "stop" : 1586429979882,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "c6e62524f1079a58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586427196047,
+        "stop" : 1586427196049,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "f0144f44cb4587cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586427111704,
+        "stop" : 1586427111706,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4e9c0941a611bf03.json",
+  "parameterValues" : [ "chrome-80.0.3987.149" ]
+}

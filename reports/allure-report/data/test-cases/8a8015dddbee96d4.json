@@ -1,0 +1,106 @@
+{
+  "uid" : "8a8015dddbee96d4",
+  "name" : "Test-1-1:Failed Test ",
+  "fullName" : "Check Allure report.Test-1-1:Failed Test ",
+  "historyId" : "821a73b13f94879246f8d5ad06e94a55",
+  "time" : {
+    "start" : 1586432070001,
+    "stop" : 1586432083674,
+    "duration" : 13673
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected true to be false",
+  "statusTrace" : "AssertionError: expected true to be false\n                    at Context.<anonymous> (D:\\WebDriverIO\\Practice\\allureSsense\\test\\specs\\demoTest\\allureTest_1.js:24:25)\n                    at Context.executeSync (D:\\WebDriverIO\\Practice\\allureSsense\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at D:\\WebDriverIO\\Practice\\allureSsense\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected true to be false",
+    "statusTrace" : "AssertionError: expected true to be false\n                    at Context.<anonymous> (D:\\WebDriverIO\\Practice\\allureSsense\\test\\specs\\demoTest\\allureTest_1.js:24:25)\n                    at Context.executeSync (D:\\WebDriverIO\\Practice\\allureSsense\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at D:\\WebDriverIO\\Practice\\allureSsense\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c9f3820307eba6b2",
+      "name" : "Screenshot",
+      "source" : "c9f3820307eba6b2.png",
+      "type" : "image/png",
+      "size" : 307796
+    }, {
+      "uid" : "dfe446839a8d128d",
+      "name" : "Screenshot",
+      "source" : "dfe446839a8d128d.png",
+      "type" : "image/png",
+      "size" : 194367
+    }, {
+      "uid" : "bd08d60fc6e15117",
+      "name" : "Screenshot",
+      "source" : "bd08d60fc6e15117.png",
+      "type" : "image/png",
+      "size" : 195695
+    }, {
+      "uid" : "45c7a3061b12236b",
+      "name" : "Screenshot",
+      "source" : "45c7a3061b12236b.png",
+      "type" : "image/png",
+      "size" : 194662
+    }, {
+      "uid" : "f6630d2b53044a8e",
+      "name" : "Screenshot",
+      "source" : "f6630d2b53044a8e.png",
+      "type" : "image/png",
+      "size" : 196748
+    }, {
+      "uid" : "50706ae79dc4e01a",
+      "name" : "Execution video",
+      "source" : "50706ae79dc4e01a.mp4",
+      "type" : "video/mp4",
+      "size" : 32233
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Check Allure report"
+  }, {
+    "name" : "testClass",
+    "value" : "Check Allure report"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test-1-1:Failed Test "
+  }, {
+    "name" : "package",
+    "value" : "Check Allure report"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-80.0.3987.149"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8a8015dddbee96d4.json",
+  "parameterValues" : [ "chrome-80.0.3987.149" ]
+}

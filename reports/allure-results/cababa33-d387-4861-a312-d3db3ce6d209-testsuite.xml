@@ -1,0 +1,63 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1586432067333' stop='1586432091530'>
+    <name>Check Allure report</name>
+    <title>Check Allure report</title>
+    <test-cases>
+        <test-case start='1586432067343' status='broken' stop='1586432091496'>
+            <name>Test-2-1:Failed Test </name>
+            <title>Test-2-1:Failed Test </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-80.0.3987.149'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='56677f13-2831-4ae8-a682-e75aed60b649-attachment.png' type='image/png' size='462343'/>
+                <attachment title='Screenshot' source='03dbe994-7602-4a62-9ee7-3a3e9a438845-attachment.png' type='image/png' size='180361'/>
+                <attachment title='Screenshot' source='73aed9bd-a6a3-41dc-8c98-6f06ee2dee98-attachment.png' type='image/png' size='180363'/>
+                <attachment title='Execution video' source='66bc0471-de3a-40e8-9d26-53970c2087c8-attachment.mp4' type='video/mp4' size='123'/>
+            </attachments>
+            <failure>
+                <message>Can't call click on element with selector "#gwd-browseMultiCategoryCard-merchandised-search-5 > div > div:nth-child(1) > a > img" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "#gwd-browseMultiCategoryCard-merchandised-search-5 > div > div:nth-child(1) > a > img" because element wasn't found
+                    at implicitWait (D:\WebDriverIO\Practice\allureSsense\node_modules\webdriverio\build\utils\implicitWait.js:22:13)
+                    at Element.runCommandWithHooks (D:\WebDriverIO\Practice\allureSsense\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Element.wrapCommandFn (D:\WebDriverIO\Practice\allureSsense\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at Element.elementErrorHandlerCallback (D:\WebDriverIO\Practice\allureSsense\node_modules\webdriverio\build\middlewares.js:40:8)
+                    at Context.&lt;anonymous> (D:\WebDriverIO\Practice\allureSsense\test\specs\demoTest\allureTest_2.js:8:97)
+                    at Context.executeSync (D:\WebDriverIO\Practice\allureSsense\node_modules\@wdio\sync\build\index.js:56:18)
+                    at D:\WebDriverIO\Practice\allureSsense\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1586432091522' status='passed' stop='1586432091525'>
+            <name>Test-2-2: Passed Test </name>
+            <title>Test-2-2: Passed Test </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-80.0.3987.149'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1586432091529' status='pending' stop='1586432091529'>
+            <name>Test-2-3: Skipped Test </name>
+            <title>Test-2-3: Skipped Test </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

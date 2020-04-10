@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1586432358209' stop='1586432368955'>
+    <name>Check Allure report</name>
+    <title>Check Allure report</title>
+    <test-cases>
+        <test-case start='1586432358217' status='failed' stop='1586432368902'>
+            <name>Test-2-1:Failed Test </name>
+            <title>Test-2-1:Failed Test </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-80.0.3987.149'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='90d47ffe-6f25-4018-8300-526ed663ea09-attachment.png' type='image/png' size='462333'/>
+                <attachment title='Screenshot' source='8041411e-8434-404d-b6c9-34dac83d67e9-attachment.png' type='image/png' size='180395'/>
+                <attachment title='Screenshot' source='42c21fcb-b7ac-47a7-8c91-40437f9dd812-attachment.png' type='image/png' size='180395'/>
+                <attachment title='Execution video' source='24fd21d3-1f29-49b4-860c-fa5c8cedd2ca-attachment.mp4' type='video/mp4' size='123'/>
+            </attachments>
+            <failure>
+                <message>expected true to be false</message>
+                <stack-trace>AssertionError: expected true to be false
+                    at Context.&lt;anonymous> (D:\WebDriverIO\Practice\allureSsense\test\specs\demoTest\allureTest_2.js:10:25)
+                    at Context.executeSync (D:\WebDriverIO\Practice\allureSsense\node_modules\@wdio\sync\build\index.js:56:18)
+                    at D:\WebDriverIO\Practice\allureSsense\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1586432368946' status='passed' stop='1586432368948'>
+            <name>Test-2-2: Passed Test </name>
+            <title>Test-2-2: Passed Test </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-80.0.3987.149'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1586432368953' status='pending' stop='1586432368953'>
+            <name>Test-2-3: Skipped Test </name>
+            <title>Test-2-3: Skipped Test </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

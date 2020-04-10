@@ -1,0 +1,93 @@
+{
+  "uid" : "737603e9dec87620",
+  "name" : "Test-2-3: Skipped Test ",
+  "fullName" : "Check Allure report.Test-2-3: Skipped Test ",
+  "historyId" : "6690f23b98740ed2ff3855ea836ee3b4",
+  "time" : {
+    "start" : 1586442958606,
+    "stop" : 1586442958606,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Check Allure report"
+  }, {
+    "name" : "testClass",
+    "value" : "Check Allure report"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test-2-3: Skipped Test "
+  }, {
+    "name" : "package",
+    "value" : "Check Allure report"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "aa2b0fe755a5438",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1586432368953,
+        "stop" : 1586432368953,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "82b5ae1a0c66a5ec",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1586432091529,
+        "stop" : 1586432091529,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "770cf5a151b580f8",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1586429979885,
+        "stop" : 1586429979885,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "401518d890b60554",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1586427196054,
+        "stop" : 1586427196054,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d3f5d0b9df8d20fc",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1586427111708,
+        "stop" : 1586427111708,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "737603e9dec87620.json",
+  "parameterValues" : [ ]
+}

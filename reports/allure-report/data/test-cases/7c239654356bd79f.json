@@ -1,0 +1,46 @@
+{
+  "uid" : "7c239654356bd79f",
+  "name" : "Test-1-3: Skipped Test ",
+  "fullName" : "Check Allure report.Test-1-3: Skipped Test ",
+  "historyId" : "2021a3f79344b245693cfaf5ef2ffa7",
+  "time" : {
+    "start" : 1586432384680,
+    "stop" : 1586432384680,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Check Allure report"
+  }, {
+    "name" : "testClass",
+    "value" : "Check Allure report"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test-1-3: Skipped Test "
+  }, {
+    "name" : "package",
+    "value" : "Check Allure report"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7c239654356bd79f.json",
+  "parameterValues" : [ ]
+}

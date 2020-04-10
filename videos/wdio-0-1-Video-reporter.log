@@ -1,0 +1,76 @@
+Using reporter config:[
+  "spec",
+  [
+    null,
+    {
+      "outputDir": "videos/",
+      "saveAllVideos": false,
+      "videoSlowdownMultiplier": 3
+    }
+  ],
+  [
+    "allure",
+    {
+      "outputDir": "reports/allure-results",
+      "disableWebdriverStepsReporting": true,
+      "disableWebdriverScreenshotsReporting": false
+    }
+  ]
+]
+
+Using config:{
+  "debugMode": false,
+  "logLevel": "info",
+  "videoRenderTimeout": 5,
+  "outputDir": "videos",
+  "allureOutputDir": "D:\\WebDriverIO\\Practice\\allureSsense\\reports\\allure-results",
+  "rawPath": "rawSeleniumVideoGrabs",
+  "usingAllure": true,
+  "saveAllVideos": false,
+  "videoSlowdownMultiplier": 3,
+  "excludedActions": [],
+  "jsonWireActions": [
+    "url",
+    "forward",
+    "back",
+    "refresh",
+    "execute",
+    "size",
+    "position",
+    "maximize",
+    "click",
+    "submit",
+    "value",
+    "keys",
+    "clear",
+    "selected",
+    "enabled",
+    "displayed",
+    "orientation",
+    "alert_text",
+    "accept_alert",
+    "dismiss_alert",
+    "moveto",
+    "buttondown",
+    "buttonup",
+    "doubleclick",
+    "down",
+    "up",
+    "move",
+    "scroll",
+    "doubleclick",
+    "longclick",
+    "flick",
+    "location"
+  ]
+}
+
+
+
+Generated:[
+  "D:\\WebDriverIO\\Practice\\allureSsense\\videos\\Check-Allure-report--Test-2-1Failed-Test---CHROME--04-09-2020--20-05-46-928.mp4"
+]
+
+
+
+Video reporter Done!
